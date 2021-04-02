@@ -1,0 +1,14 @@
+{
+  "name": "component",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}
