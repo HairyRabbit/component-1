@@ -1,0 +1,39 @@
+$AvatarSize: (
+  xs: 1.5rem,
+  sm: 2rem,
+  md: 2.5rem,
+  lg: 3.5rem,
+  xl: 5rem
+);
+
+
+
+.main {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  user-select: none;
+}
+
+@each $key, $val in $AvatarSize {
+  .size_#{$key} {
+    width: $val;
+    height: $val;
+  }
+}
+
+
+$AvatarShare: (
+  circle: 'circle', 
+  rounded: 'rounded',
+);
+
+/// @type: `share #{AvatarShare}`
+.shape {
+  &_circle {
+    border-radius: 50%;
+  }
+  &_rounded {
+    border-radius: 4px;
+  }
+}

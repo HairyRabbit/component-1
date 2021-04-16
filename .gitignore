@@ -47,3 +47,7 @@ screenshot
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !/.yarn/cache
 #/.pnp.*
+
+# force typescript
+*.js
+*.jsx
