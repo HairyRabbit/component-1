@@ -1,0 +1,50 @@
+.main {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  user-select: none;
+
+  background-color: lightgray;
+}
+
+$AvatarSize: (
+  xs: 1.5rem,
+  sm: 2rem,
+  md: 2.5rem,
+  lg: 3.5rem,
+  xl: 5rem
+);
+
+@each $key, $val in $AvatarSize {
+  .size_#{$key} {
+    width: $val;
+    height: $val;
+  }
+}
+
+// #region round
+$AvatarRound: (
+  none: 0,
+  round: 4px,
+  circle: 50%, 
+);
+
+@each $key, $val in $AvatarRound {
+  .round_#{$key} {
+    border-radius: $val;
+  }
+}
+
+$AvatarRoundSize: (
+  lg: 2px,
+  md: 4px,
+  xl: 8px, 
+);
+
+
+@each $key, $val in $AvatarRoundSize {
+  .round_size_#{$key} {
+    border-radius: $val;
+  }
+}
+// #endregion

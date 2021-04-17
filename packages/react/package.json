@@ -2,16 +2,17 @@
   "name": "react",
   "private": true,
   "devDependencies": {
+    "@microsoft/tsdoc": "^0.13.0",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "esm-dev-server": "^0.0.1-rc.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "style-compiler": "^0.0.1-rc.1",
+    "style-compiler": "^0.0.1-rc.2",
     "ts-transform-import-path-rewrite": "^0.3.0",
     "ttypescript": "^1.5.12",
     "typescript": "^4.2.3",
-    "typescript-transform-import-root-path": "^0.0.1-rc.0"
+    "typescript-transform-import-root-path": "^0.0.1-rc.3"
   },
   "peerDependencies": {
     "tslib": "*"

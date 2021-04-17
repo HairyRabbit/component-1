@@ -1,0 +1,1 @@
+{"version":3,"file":"Root.js","sourceRoot":"","sources":["../Root.tsx"],"names":[],"mappings":";;AAAA,OAAO,EAAE,MAAM,EAAE,oBAAe;AAEhC,MAAM,CAAC,OAAO,UAAU,IAAI;IAC1B,OAAO,kCAEL,QAAC,MAAM,sFAAG,oFACN,CAAA;AACR,CAAC","sourcesContent":["import { Avatar } from './index'\n\nexport default function Root() {\n  return <div>\n    42\n    <Avatar />\n  </div>\n}\n"]}

@@ -1,3 +1,5 @@
+import { style } from './style.css'
+
 export const enum AvatarSize {
   XL,
   LG,
@@ -30,5 +32,15 @@ export function parse_avatar_size(size: string) {
     case 'smaller':
       return AvatarSize.XS
     default: throw new Error(`Unknown AvatarSize "${size}"`)
+  }
+}
+
+export function map_size_to_style(size: AvatarSize) {
+  switch(size) {
+    case AvatarSize.XL: return style.size_xl
+    case AvatarSize.LG: return style.size_lg
+    case AvatarSize.MD: return style.size_md
+    case AvatarSize.SM: return style.size_sm
+    case AvatarSize.XS: return style.size_xs
   }
 }
