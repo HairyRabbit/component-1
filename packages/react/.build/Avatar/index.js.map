@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../Avatar/index.ts"],"names":[],"mappings":"AAAA,wCAAwC;AACxC,OAAO,EAAE,UAAU,EAAE,iBAAiB,EAAE,0BAAc","sourcesContent":["// export { Avatar } from './Avatar.js';\nexport { AvatarSize, parse_avatar_size } from './size'\n"]}
